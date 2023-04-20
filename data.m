@@ -4,4 +4,4 @@ inputs = readtable('E:\GraduationDesign\inputs.xls');
 postures = importdata('E:\\GraduationDesign\\data\\PriData\\priPostures.txt');
 % 各组位姿偏差数据经过补偿后，最终评价指标之和
 evaluating_indicators = importdata('E:\GraduationDesign\evaluating_indicator.txt');
-
+% 构建双反馈回路
