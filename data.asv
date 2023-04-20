@@ -1,0 +1,5 @@
+inputs = readtable('E:\GraduationDesign\inputs.xls');
+postures = importdata('E:\\GraduationDesign\\data\\PriData\\priPostures.txt');
+% 各个位姿偏差经过PCA降维后的主要偏差的代号
+evaluating_indicators = importdata('E:\GraduationDesign\evaluating_indicator.txt');
+% 各组位姿偏差数据经过补偿后，最终评价指标之和
